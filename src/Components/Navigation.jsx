@@ -11,6 +11,20 @@ function Navigation() {
           </a>
           {/* logo brand - end */}
 
+          {/* expand button - start */}
+          <button
+            className="navbar-toggler col-1 border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          {/* expand button - end */}
+
           {/* menus - start */}
           <div className="collapse navbar-collapse col-6 row" id="navbarNav">
             {/* center menus - start */}
@@ -52,20 +66,6 @@ function Navigation() {
             {/* right menus - end */}
           </div>
           {/* menus - end */}
-
-          {/* expand button - start */}
-          <button
-            className="navbar-toggler col-1 border-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          {/* expand button - end */}
         </div>
       </nav>
     </div>
