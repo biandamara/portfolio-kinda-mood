@@ -3,7 +3,7 @@ import React from "react";
 function Navigation() {
   return (
     <div className="mx-4">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center pt-0">
         <div className="container-fluid row border-bottom border-white">
           {/* logo brand - start */}
           <a className="navbar-brand col-6 text-light" href="/">
