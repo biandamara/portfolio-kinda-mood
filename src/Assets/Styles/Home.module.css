@@ -1,6 +1,6 @@
 .header {
   background-color: rgb(80, 90, 210);
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
 }
 
@@ -11,10 +11,5 @@
 }
 
 .jumbotron h1 {
-  font-size: 10vw;
-  line-height: 1;
-}
-
-.jumbotron p {
-  font-size: 1.5vw;
+  font-size: 10vh;
 }

@@ -16,18 +16,19 @@ function Home() {
         {/* navigation - end */}
 
         {/* jumbotron - start */}
-        <div className={`container ${style.jumbotron}`}>
-          <div className="clearfix text-white">
-            <p className="col-md-6 float-md-end m-ms-1 mx-md-4 mt-md-5 pe-md-5 pe-sm-0 ">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-            <h1 className="col text-end">Lorem Ipsum</h1>
-            <h1 className="col text-center">
-              dolor sit amet, consectetur adipiscing elit.
-            </h1>
+        <div className={`container text-center ${style.jumbotron}`}>
+          <div className="pb-3">
+            <img
+              src="https://blush.design/api/download?shareUri=lDredU02ANUQXw85&c=Hair_0%7E2d2824-0.2%7E6aa095-0.3%7E6aa095_Skin_0%7Eedb0b0-0.2%7Eedb0b0-0.3%7Ef48078&w=800&h=800&fm=png"
+              alt=""
+            />
+            <div className="row align-items-center text-white">
+              <h1 className="col text-end">Get your venture out in the wind</h1>
+              <p className="col">
+                Build your brand fundamentals from the start and make it easier
+                o gain traction, attract people and grow business.
+              </p>
+            </div>
           </div>
         </div>
         {/* jumbotron - end */}
