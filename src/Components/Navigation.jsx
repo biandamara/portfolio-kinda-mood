@@ -26,47 +26,35 @@ function Navigation() {
           {/* expand button - end */}
 
           {/* menus - start */}
-          <div className="collapse navbar-collapse col-6 row" id="navbarNav">
-            {/* center menus - start */}
-            <div className="col-8 border-start border-end border-white">
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a
-                    className="nav-link text-light"
-                    aria-current="page"
-                    href="/"
-                  >
-                    Project
-                  </a>
-                </li>
-                <li classNameName="nav-item">
-                  <a className="nav-link text-light" href="/">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link text-light" href="/">
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-            {/* center menus - end */}
-
-            {/* right menus - start */}
-            <div className="col-4 d-flex justify-content-end">
-              <ul className="navbar-nav">
-                <li className="nav-item ">
-                  <a className="nav-link text-light" href="/">
-                    Let's Talk
-                  </a>
-                </li>
-              </ul>
-            </div>
-            {/* right menus - end */}
+          <div
+            className="collapse navbar-collapse col-6 justify-content-end text-center"
+            id="navbarNav"
+          >
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link text-light" aria-current="page" href="/">
+                  Project
+                </a>
+              </li>
+              <li classNameName="nav-item">
+                <a className="nav-link text-light" href="/">
+                  Pricing
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-light" href="/">
+                  About
+                </a>
+              </li>
+              <li className="nav-item ms-lg-5">
+                <a className="nav-link text-light" href="/">
+                  Let's Talk
+                </a>
+              </li>
+            </ul>
           </div>
-          {/* menus - end */}
         </div>
+        {/* menus - end */}
       </nav>
     </div>
   );

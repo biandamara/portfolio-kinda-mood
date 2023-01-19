@@ -16,7 +16,7 @@ function Home() {
         {/* navigation - end */}
 
         {/* jumbotron - start */}
-        <div className={`container text-center py-4 ${style.jumbotron}`}>
+        <div className={`container text-center p-4 ${style.jumbotron}`}>
           <div className="">
             <img
               className="img-fluid"
@@ -39,7 +39,7 @@ function Home() {
       {/* content - brand - start */}
       <div className={`${style.brand}`}>
         <div className="container">
-          <div className="row py-4 align-items-center">
+          <div className="row row-cols-1 row-cols-lg-2 p-4 align-items-center">
             <div className="col text-center">
               <h1>Who we are?</h1>
               <img
