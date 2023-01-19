@@ -96,7 +96,7 @@ function Home() {
           </div>
 
           {/* box 01 - start */}
-          <div className="row row-cols-1 row-cols-lg-2 rounded-5 my-3 p-5 align-items-center bg-white">
+          <div className="row row-cols-1 row-cols-lg-2 rounded-5 my-3 p-3 align-items-center bg-white">
             <img
               className="img-fluid"
               src="https://blush.design/api/download?shareUri=8JZaMmpuGq_v5vGt&c=Hair_0%7E2d2824_Skin_0%7Ef48078&w=800&h=800&fm=png"
@@ -138,7 +138,7 @@ function Home() {
               vision taking a leap from 0 to 1.
             </p>
           </div>
-          {/* box 04 - end */}
+          {/* box 03 - end */}
         </div>
       </div>
       {/* what we do? - end */}
