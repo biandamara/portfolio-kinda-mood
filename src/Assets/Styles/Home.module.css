@@ -4,8 +4,14 @@
   width: 100vw;
 }
 
-.brand {
+.who {
   background-color: rgb(255, 255, 255);
-  height: 100vh;
+  /* height: 100vh; */
+  width: 100vw;
+}
+
+.what {
+  background-color: rgb(250, 210, 220);
+  /* height: 100vh; */
   width: 100vw;
 }
