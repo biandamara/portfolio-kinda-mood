@@ -2,6 +2,7 @@ import React from "react";
 
 // import components
 import Navigation from "../Components/Navigation";
+import Carousel from "../Components/Carousel";
 
 // import styles
 import style from "../Assets/Styles/Home.module.css";
@@ -96,7 +97,7 @@ function Home() {
           </div>
 
           {/* box 01 - start */}
-          <div className="row row-cols-1 row-cols-lg-2 rounded-5 my-3 p-3 align-items-center bg-white">
+          <div className="row row-cols-1 row-cols-lg-2 rounded-5 my-3 p-3 justify-content-center align-items-center bg-white">
             <img
               className="img-fluid"
               src="https://blush.design/api/download?shareUri=8JZaMmpuGq_v5vGt&c=Hair_0%7E2d2824_Skin_0%7Ef48078&w=800&h=800&fm=png"
@@ -111,7 +112,7 @@ function Home() {
           {/* box 01 - end */}
 
           {/* box 02 - start */}
-          <div className="row row-cols-1 row-cols-lg-2 my-3 p-5 align-items-center">
+          <div className="row row-cols-1 row-cols-lg-2 my-3 p-5 justify-content-center align-items-center">
             <p className="col">
               Wa ask uncomfortable questions, facilitate exhaustive workshops
               and draw the fundamentals out to help you follow through on your
@@ -126,7 +127,7 @@ function Home() {
           {/* box 02 - end */}
 
           {/* box 03 - start */}
-          <div className="row row-cols-1 row-cols-lg-2 rounded-5 my-3 p-5 align-items-center bg-white">
+          <div className="row row-cols-1 row-cols-lg-2 rounded-5 my-3 p-5 justify-content-center align-items-center bg-white">
             <img
               className="img-fluid"
               src="https://blush.design/api/download?shareUri=6Mjf5bCl6tbuPYNL&c=Hair_0%7Ef9cd6b-0.3%7E2d2824-0.4%7E2d2824_Skin_0%7Ecc4937-0.3%7Ef2684e-0.4%7Ef2684e&w=800&h=800&fm=png"
@@ -142,6 +143,13 @@ function Home() {
         </div>
       </div>
       {/* what we do? - end */}
+
+      {/* our approach - start */}
+      <div className={`container px-4 py-5 ${style.approach}`}>
+        <h2>Our Approach</h2>
+        <Carousel />
+      </div>
+      {/* our approach - end */}
     </body>
   );
 }
