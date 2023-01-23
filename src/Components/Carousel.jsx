@@ -28,7 +28,7 @@ function Card() {
       itemClass="pe-3"
       responsive={responsive}
       swipeable={true}
-      infinite={true}
+      // infinite={true}
       // centerMode={true}
       focusOnSelect={true}
       // showDots={true}

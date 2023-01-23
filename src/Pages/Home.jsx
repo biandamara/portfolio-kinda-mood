@@ -3,6 +3,7 @@ import React from "react";
 // import components
 import Navigation from "../Components/Navigation";
 import Carousel from "../Components/Carousel";
+import Footer from "../Components/Footer";
 
 // import styles
 import style from "../Assets/Styles/Home.module.css";
@@ -38,7 +39,7 @@ function Home() {
       {/* Header - end */}
 
       {/* who we are? - start */}
-      <div className={`${style.who}`}>
+      <section className={`${style.who}`}>
         <div className="container px-4 py-5">
           {/* box - start */}
           <div className="row row-cols-1 row-cols-lg-3 rounded-5 my-3 p-5 bg-secondary align-items-center">
@@ -77,11 +78,11 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       {/* who we are? - end */}
 
       {/* what we do? - start */}
-      <div className={`${style.what}`}>
+      <section className={`${style.what}`}>
         <div className="container px-4 py-5">
           <div className="row row-cols-1 row-cols-lg-2">
             <div className="col text-center">
@@ -141,15 +142,19 @@ function Home() {
           </div>
           {/* box 03 - end */}
         </div>
-      </div>
+      </section>
       {/* what we do? - end */}
 
       {/* our approach - start */}
-      <div className={`container px-4 py-5 ${style.approach}`}>
+      <section className={`container px-4 py-5 ${style.approach}`}>
         <h2>Our Approach</h2>
         <Carousel />
-      </div>
+      </section>
       {/* our approach - end */}
+
+      {/* footer - start */}
+      <Footer />
+      {/* footer - end */}
     </body>
   );
 }
